@@ -1,11 +1,12 @@
-"use client";
 
 import { GradientBackgroundCon } from "@/components/QuoteGenerator/QuoteGeneratorElements"
 
 
-export default function Home() {
+export default function Page() {
   return (
-    <GradientBackgroundCon>
-    </GradientBackgroundCon>
+    <div>
+      <GradientBackgroundCon>
+      </GradientBackgroundCon>
+    </div>
   )
-}
+};
