@@ -1,7 +1,7 @@
-"use client"
-import Head from "next/head"
-import Image from "next/image"
-import { useState } from "react"
+"use client";
+import Head from "next/head";
+import Image from "next/image";
+import { useState } from "react";
 
 // Components
 import { BackgroundImage1, BackgroundImage2, FooterLink, FootCon, GradientBackgroundCon, QuoteGeneratorCon, QuoteGeneratorInnerCon, QuoteGeneratorTitle, QuoteGeneratorSubTitle, GenerateQuoteButton, GenerateQuoteButtonText } from "@/components/QuoteGenerator/QuoteGeneratorElements"
@@ -55,7 +55,6 @@ export default function Page() {
         alt="Cloudy background"
         priority
         />
-
 
 
         {/* Footer */}
