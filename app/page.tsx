@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
@@ -9,6 +9,11 @@ import { BackgroundImage1, BackgroundImage2, FooterLink, FootCon, GradientBackgr
 // Assets
 import Cloud1 from '@/assets/cloud.png'
 import Cloud2 from '../assets/Sun-And-Cloud-PNG-Picture.png'
+
+import { Amplify } from 'aws-amplify';
+import aweExports from '../src/aws-exports'
+
+Amplify.configure({ ...aweExports, ssr: true })
 
 export default function Page() {
 
