@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/auth": "^5.3.7",
+    "@aws-amplify/core": "^5.3.1",
     "@aws-amplify/ui-react": "^4.6.4",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
@@ -16,14 +18,18 @@
     "@types/node": "20.2.3",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
+    "@zeit/next-css": "^1.0.1",
     "autoprefixer": "10.4.14",
     "aws-amplify": "^5.2.4",
+    "aws-crt": "^1.15.17",
+    "aws-sdk": "^2.1387.0",
+    "encoding": "^0.1.13",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "styled-components": "^5.3.6",
+    "styled-components": "^5.3.11",
     "typescript": "5.0.4"
   },
   "devDependencies": {

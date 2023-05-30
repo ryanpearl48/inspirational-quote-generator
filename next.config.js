@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: false,
   compiler: {
-    // Styled components babel plugin
     styledComponents: {
       displayName: true,
       ssr: true,
@@ -10,12 +9,13 @@ const nextConfig = {
       topLevelImportPaths: [],
       meaninglessFileNames: ["index"],
       cssProp: true,
-      namespace: "",
+      namespace: " ",
       minify: false,
       transpileTemplateLiterals: false,
       pure: false,
     }
   }
 }
+
 
 module.exports = nextConfig
